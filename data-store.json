@@ -1,0 +1,330 @@
+{
+  "users": [
+    {
+      "id": "u1",
+      "email": "user@kulinerbangka.com",
+      "password": "password123",
+      "username": "Budi Bangka",
+      "role": "user",
+      "favorites": ["1", "3"]
+    },
+    {
+      "id": "u2",
+      "email": "admin@kulinerbangka.com",
+      "password": "admin123",
+      "username": "Admin Pangkalpinang",
+      "role": "admin",
+      "favorites": []
+    }
+  ],
+  "promos": [
+    {
+      "id": "p1",
+      "title": "Makan Hemat Lempah Kuning",
+      "description": "Diskon 20% khusus untuk menu Lempah Kuning Kakap Seafood Khas Bangka Belitung.",
+      "code": "LEMPAH20",
+      "discountPercentage": 20,
+      "bannerUrl": "https://images.unsplash.com/photo-1546069901-ba9599a7e63c?auto=format&fit=crop&q=80&w=1200",
+      "expiryDate": "2026-12-31"
+    },
+    {
+      "id": "p2",
+      "title": "Kopi O Pagi Seru Tung Tau",
+      "description": "Beli Roti Panggang Gandum gratis Kopi O pekat legendaris di Pangkalpinang.",
+      "code": "TUNGTAUCOFFEE",
+      "discountPercentage": 15,
+      "bannerUrl": "https://images.unsplash.com/photo-1509042239860-f550ce710b93?auto=format&fit=crop&q=80&w=1200",
+      "expiryDate": "2026-12-31"
+    }
+  ],
+  "culinarySpots": [
+    {
+      "id": "1",
+      "name": "Mie Koba Iskandar",
+      "photoUrl": "https://images.unsplash.com/photo-1612927601601-6638404737ce?auto=format&fit=crop&q=80&w=800",
+      "category": "Mie Bangka",
+      "description": "Mie Koba Iskandar merupakan ikon kuliner mi khas Bangka yang sangat legendaris. Sajian mi kenyal ini disiram dengan kuah kaldu ikan tenggiri yang kental, manis, gurih, serta beraroma cengkih. Dilengkapi taburan taoge segar, bawang goreng, seledri, cincangan telur rebus, serta kucuran jeruk kunci (nipis lokal Bangka) asam segar yang membangkitkan selera makan.",
+      "rating": 4.8,
+      "address": "Jl. Balai No.83, Gedung Nasional, Kec. Taman Sari, Pangkalpinang, Bangka Belitung",
+      "openingHours": "08:00 - 20:00 WIB",
+      "averagePrice": 20000,
+      "phoneWhatsApp": "6282177000123",
+      "location": {
+        "lat": -2.124618,
+        "lng": 106.111822,
+        "address": "Mie Koba Iskandar, Jl. Balai, Gedung Nasional"
+      },
+      "featured": true,
+      "reviews": [
+        {
+          "id": "r1",
+          "reviewerName": "Andi Wijaya",
+          "reviewerEmail": "andi@gmail.com",
+          "rating": 5,
+          "comment": "Rasa kuah tenggirinya juara banget! Gurih manisnya pas ditambah jeruk kunci bikin segar luar biasa. Sangat direkomendasikan jika ke Pangkalpinang.",
+          "date": "2026-05-12"
+        },
+        {
+          "id": "r2",
+          "reviewerName": "Siska Putri",
+          "reviewerEmail": "siska@aol.com",
+          "rating": 4.6,
+          "comment": "Makanan paling wajib dicoba kalau singgah di Bangka, harga murah meriah porsi mengenyangkan.",
+          "date": "2026-05-20"
+        }
+      ]
+    },
+    {
+      "id": "2",
+      "name": "Kopi Tung Tau - Pangkalpinang",
+      "photoUrl": "https://images.unsplash.com/photo-1554118811-1e0d58224f24?auto=format&fit=crop&q=80&w=800",
+      "category": "Kopi",
+      "description": "Warung Kopi Tung Tau telah setia menemani pecinta kopi sejak tahun 1938. Menggunakan metode seduh tradisional legendaris 'tarik kopi' saringan kain sutra serta biji kopi robusta lokal berkualitas, menghasilkan rasa kopi O hitam yang pekat nan harum. Pasangan terbaik dari minuman hits ini adalah Roti Panggang Gandum bakar arang tradisional isi selai srikaya buatan sendiri yang gurih dan legit.",
+      "rating": 4.7,
+      "address": "Jl. Soekarno Hatta No.7, Kel. Semabung Baru, Kec. Girimaya, Kota Pangkalpinang, Bangka Belitung",
+      "openingHours": "Buka 24 Jam",
+      "averagePrice": 25000,
+      "phoneWhatsApp": "6281923456789",
+      "location": {
+        "lat": -2.138950,
+        "lng": 106.121500,
+        "address": "Kopi Tung Tau Executive Semabung, Girimaya"
+      },
+      "featured": true,
+      "reviews": [
+        {
+          "id": "r3",
+          "reviewerName": "Irwan Saputra",
+          "reviewerEmail": "irwan@gmail.com",
+          "rating": 5,
+          "comment": "Tempat nongkrong legendaris 24 jam. Kopi hitam pekat disanding roti bakar srikaya gandum paling mantap sedunia.",
+          "date": "2026-04-18"
+        }
+      ]
+    },
+    {
+      "id": "3",
+      "name": "Otak-Otak Amui",
+      "photoUrl": "https://images.unsplash.com/photo-1588166524941-3bf61a9c41db?auto=format&fit=crop&q=80&w=800",
+      "category": "Otak-otak",
+      "description": "Otak-Otak Amui menyajikan penganan otak-otak panggang ikan tenggiri premium yang dibungkus daun pisang segar berkualitas tinggi. Dibakar di atas bara arang menghasilkan rasa gurih lembut beraroma panggangan khas Bangka Belitung. Keunikan utama toko ini terletak pada 3 rasa cuka cocolan otentik: Cuka Tauco kedelai yang asin-manis, Cuka Terasi Bangka pedas gurih, dan Cuka Kacang kental bertekstur gurih pedas asam.",
+      "rating": 4.9,
+      "address": "Jl. Melintas No.18, Kel. Bintang, Kec. Rangkui, Kota Pangkalpinang, Bangka Belitung",
+      "openingHours": "09:00 - 18:00 WIB",
+      "averagePrice": 30000,
+      "phoneWhatsApp": "6285266881234",
+      "location": {
+        "lat": -2.126500,
+        "lng": 106.113200,
+        "address": "Otak-Otak Amui, Bintang, Rangkui"
+      },
+      "featured": true,
+      "reviews": [
+        {
+          "id": "r4",
+          "reviewerName": "Hendra Tan",
+          "reviewerEmail": "hendra@gmail.com",
+          "rating": 5,
+          "comment": "Ikannya terasa sekali, tidak terlalu banyak tepung. Saus tauco dan terasinya sangat authentic Bangka!",
+          "date": "2026-05-01"
+        }
+      ]
+    },
+    {
+      "id": "4",
+      "name": "Lempah Kuning Muara",
+      "photoUrl": "https://images.unsplash.com/photo-1546069901-ba9599a7e63c?auto=format&fit=crop&q=80&w=800",
+      "category": "Lempah Kuning",
+      "description": "Lempah Kuning Muara adalah surga bagi penikmat hidangan sup kunyit asam pedas tradisional Bangka. Menyajikan potongan kepala/badan ikan Kakap Merah, ikan bawal, mas atau kerisi segar tenggiri hasil tangkapan nelayan lokal hari itu juga. Kuah lempah diracik dengan bumbu halus kunyit, cabai rawit merah, asam jawa, terasi Bangka, dan irisan nanas matang yang memberikan ledakan rasa manis, kecut, asam, serta pedas segar yang memikat.",
+      "rating": 4.6,
+      "address": "Pelabuhan Acuan, Kawasan Kelapa Tujuh, Pangkalpinang, Bangka Belitung",
+      "openingHours": "10:00 - 16:00 WIB",
+      "averagePrice": 50000,
+      "phoneWhatsApp": "6287755443211",
+      "location": {
+        "lat": -2.122100,
+        "lng": 106.135400,
+        "address": "Lempah Kuning Muara, Pangkal Balam"
+      },
+      "featured": false,
+      "reviews": [
+        {
+          "id": "r5",
+          "reviewerName": "Yanto Lubis",
+          "reviewerEmail": "yanto@lubis.com",
+          "rating": 4.5,
+          "comment": "Lempah kepala ikan bawal nanas rasanya segar sekali. Pedas gurihnya nikmat dimakan dengan nasi hangat saat siang hari.",
+          "date": "2026-05-15"
+        }
+      ]
+    },
+    {
+      "id": "5",
+      "name": "Seafood Mr. Adox",
+      "photoUrl": "https://images.unsplash.com/photo-1565557623262-b51c2513a641?auto=format&fit=crop&q=80&w=800",
+      "category": "Seafood",
+      "description": "Seafood Mr. Adox adalah rumah makan seafood paling prestisius di Pangkalpinang. Menawarkan beraneka hidangan laut segar hidup (live seafood) seperti Kepiting Bakau Saus Padang, Cumi Goreng Mentega, Udang Satang Bakar madu, serta kerrang dara rebus bumbu cuka pedas khas. Tempatnya sangat luas, berdesain modern-etnik, sangat pas untuk acara santap malam bersama rombongan keluarga besar maupun kolega kerja bisnis.",
+      "rating": 4.6,
+      "address": "Jl. Alexander Raya No. 1, Kel. Air Itam, Kec. Bukit Intan, Kota Pangkalpinang, Bangka Belitung",
+      "openingHours": "11:00 - 22:00 WIB",
+      "averagePrice": 85000,
+      "phoneWhatsApp": "628117170099",
+      "location": {
+        "lat": -2.152300,
+        "lng": 106.143200,
+        "address": "Seafood Mr. Adox, Air Itam dekat Komplek VIP Pemerintahan"
+      },
+      "featured": true,
+      "reviews": [
+        {
+          "id": "r6",
+          "reviewerName": "Rina Gunawan",
+          "reviewerEmail": "rina@gun.com",
+          "rating": 4.8,
+          "comment": "Kepiting saus Padang-nya gurih pedas melimpah ruah, ikan bakar gurame segar pas banget bumbunya meresap sampai ke serat daging terdalam.",
+          "date": "2026-05-22"
+        }
+      ]
+    },
+    {
+      "id": "6",
+      "name": "Martabak Asli Bangka Acun",
+      "photoUrl": "https://images.unsplash.com/photo-1551024601-bec78aea704b?auto=format&fit=crop&q=80&w=800",
+      "category": "Martabak Bangka",
+      "description": "Martabak Acun merupakan legenda hidup sajian Hok-Lo-Pan asli Bangka Belitung. Adonan martabak difermentasi manual dengan resep rahasia turun-temurun, menghasilkan sensasi tebal-lembut bersarang sempurna. Diolesi mentega Wijsman Belanda melimpah, ditambahkan parutan keju Kraft panjang berlimpah, cokelat meises butir premium, kacang goreng renyah cincang dan taburan wijen harum, memberikan cita rasa premium sejati martabak manis Bangka.",
+      "rating": 4.9,
+      "address": "Jl. Jenderal Sudirman No.95, Taman Sari, Kota Pangkalpinang, Bangka Belitung",
+      "openingHours": "16:00 - 23:00 WIB",
+      "averagePrice": 45000,
+      "phoneWhatsApp": "628127373889",
+      "location": {
+        "lat": -2.122300,
+        "lng": 106.111200,
+        "address": "Martabak Acun, Simpang Tujuh Pangkalpinang"
+      },
+      "featured": true,
+      "reviews": [
+        {
+          "id": "r7",
+          "reviewerName": "Dedi Hartono",
+          "reviewerEmail": "dedi@gmail.com",
+          "rating": 5,
+          "comment": "Martabak paling lembut yang pernah saya makan. Harganya sebanding dengan kualitas mentega premiumnya yang wangi melimpah.",
+          "date": "2026-05-23"
+        }
+      ]
+    },
+    {
+      "id": "7",
+      "name": "Es Durian Angit",
+      "photoUrl": "https://images.unsplash.com/photo-1563729784474-d77dbb933a9e?auto=format&fit=crop&q=80&w=800",
+      "category": "Dessert",
+      "description": "Menyajikan pencuci mulut es serut durian lokal segar khas Bangka dengan siraman kental manis cokelat, kacang merah rebus yang empuk manis, dan selai durian segar yang wangi melimpah. Sangat nikmat diminum pada siang hari terik Pangkalpinang.",
+      "rating": 4.5,
+      "address": "Jl. Masjid Jamik, Pangkalpinang, Bangka Belitung",
+      "openingHours": "10:00 - 18:00 WIB",
+      "averagePrice": 15000,
+      "phoneWhatsApp": "628994433221",
+      "location": {
+        "lat": -2.125500,
+        "lng": 106.112800,
+        "address": "Es Durian Angit, depan Masjid Jamik Pangkalpinang"
+      },
+      "featured": false,
+      "reviews": [
+        {
+          "id": "r8",
+          "reviewerName": "Nadia Tasya",
+          "reviewerEmail": "nadia@tasya.com",
+          "rating": 4.5,
+          "comment": "Daging duriannya segar melimpah, dicampur serutan kacang merah sangat legit dingin menyegarkan tenggorokan.",
+          "date": "2026-05-24"
+        }
+      ]
+    },
+    {
+      "id": "8",
+      "name": "Otak-Otak Ase",
+      "photoUrl": "https://images.unsplash.com/photo-1504674900247-0877df9cc836?auto=format&fit=crop&q=80&w=800",
+      "category": "Otak-otak",
+      "description": "Otak-Otak Ase adalah salah satu destinasi oleh-oleh otak-otak panggang terpopuler di Pangkalpinang. Terbuat dari adonan ikan tenggiri segar pilihan dengan bumbu rahasia menghasilkan sensasi tekstur yang kenyal gurih. Disajikan hangat dibakar langsung dari bara arang dan dicocol bersama pilihan saus cuka terasi, cuka taoco khas Bangka, atau kuah sambal kacang kental.",
+      "rating": 4.8,
+      "address": "Jl. Mayor H. Muhidin No.107, Kel. Bintang, Kec. Rangkui, Kota Pangkalpinang, Bangka Belitung",
+      "openingHours": "08:00 - 21:00 WIB",
+      "averagePrice": 25000,
+      "phoneWhatsApp": "6282173550099",
+      "location": {
+        "lat": -2.127800,
+        "lng": 106.114100,
+        "address": "Otak-Otak Ase, Rangkui, Pangkalpinang"
+      },
+      "featured": true,
+      "reviews": [
+        {
+          "id": "r9",
+          "reviewerName": "Denny Siregar",
+          "reviewerEmail": "denny@siregar.net",
+          "rating": 4.9,
+          "comment": "Otak-otaknya mantap, aroma panggangan daun pisangnya wangi sekali. Cuko tauconya juara sedunia!",
+          "date": "2026-05-24"
+        }
+      ]
+    },
+    {
+      "id": "9",
+      "name": "Lempah Kuning Bang Jamil",
+      "photoUrl": "https://images.unsplash.com/photo-1606787366850-de6330128bfc?auto=format&fit=crop&q=80&w=800",
+      "category": "Lempah Kuning",
+      "description": "Warung makan outdoor legendaris yang menyajikan sup Lempah Kuning ikan laut premium dengan kuah rempah yang sangat medok dan berani bumbu. Kuah kuning segar bercampur dengan potongan nanas manis, belimbing asam, dan aroma terasi bakar khas Bangka Belitung yang memikat. Sangat ramai dikunjungi pejabat lokal dan wisatawan.",
+      "rating": 4.7,
+      "address": "Jl. Solihin GP, Pasir Putih, Kec. Rangkui, Kota Pangkalpinang, Bangka Belitung",
+      "openingHours": "09:00 - 17:00 WIB",
+      "averagePrice": 40000,
+      "phoneWhatsApp": "6281988776655",
+      "location": {
+        "lat": -2.131500,
+        "lng": 106.118900,
+        "address": "Lempah Kuning Bang Jamil, Solihin GP, Pangkalpinang"
+      },
+      "featured": true,
+      "reviews": [
+        {
+          "id": "r10",
+          "reviewerName": "Ahmad Dani",
+          "reviewerEmail": "dani@ahm.com",
+          "rating": 4.8,
+          "comment": "Segar luar biasa rasa Lempah Kuning Ikan Cantik Nanas di sini. Makan siang paling berkesan!",
+          "date": "2026-05-24"
+        }
+      ]
+    },
+    {
+      "id": "10",
+      "name": "Hok-Lo-Pan Martabak Tet Fook",
+      "photoUrl": "https://images.unsplash.com/photo-1511018556340-d16986a1c194?auto=format&fit=crop&q=80&w=800",
+      "category": "Martabak Bangka",
+      "description": "Martabak manis orisinal Hok-Lo-Pan khas Bangka yang tersohor dengan ketebalan pinggirannya yang crispy dan bagian tengah adonan super berserat, lembut, dan empuk. Diolesi butter Wijsman beraroma harum legendaris dan ditaburi topping wijen, keju melimpah, cokelat butir, hingga kacang gurih renyah sangrai bumbu premium.",
+      "rating": 4.8,
+      "address": "Jl. Mayor Syafri Rahman No.42, Kel. Bukit Besar, Kec. Girimaya, Kota Pangkalpinang, Bangka Belitung",
+      "openingHours": "16:00 - 22:30 WIB",
+      "averagePrice": 35000,
+      "phoneWhatsApp": "6281223344556",
+      "location": {
+        "lat": -2.128500,
+        "lng": 106.118000,
+        "address": "Martabak Tet Fook, Girimaya, Pangkalpinang"
+      },
+      "featured": false,
+      "reviews": [
+        {
+          "id": "r11",
+          "reviewerName": "Fandi Ahmad",
+          "reviewerEmail": "fandi@ahmad.com",
+          "rating": 4.7,
+          "comment": "Benar-benar tebal dan lembut! Gurih harum menteganya terasa sekali, tidak pelit topping.",
+          "date": "2026-05-24"
+        }
+      ]
+    }
+  ]
+}
